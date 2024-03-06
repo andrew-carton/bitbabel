@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bitbabel</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a class="active" href="../bloglist.html ">Blog</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <div class="blogcontent">
+            <h1 >My Exploration of Linux - A Journey of Trials and Triumphs</h1>
+            <img class="blogimg" src="../images/wvl.jpg" alt="Windows vs. Linux">
+            <p><strong>Description:</strong> Struggle with operating systems.</p>
+            <p><strong>Date:</strong>2024-02-25</p>
+            
+            
+            <p>In the early days of my tech journey, I was a teenager with a keen interest in Linux. I remember eagerly purchasing geek magazines, each edition offering different flavors of Linux and BSD to try out. My first encounter was with Mandrake Linux, a name that still brings back a wave of nostalgia.</p>
+            <h2  id="the-initiation">The Initiation</h2>
+            <p>The first time I attempted to install Linux, I was met with a partition screen that required resizing the Windows partition to dual boot it. As a teenager with a family computer running on Windows, this was a nerve-wracking experience. I pressed a few buttons, and suddenly, Windows was gone. It was an initiation of sorts, a trial by fire that led to my family’s dismay. However, with time, I became familiar with the process and found myself distro hopping every week.</p>
+            <h2 id="the-evolution">The Evolution</h2>
+            <p>Fast forward a couple of decades, I thought Linux would have evolved significantly. Unfortunately, my experience suggested otherwise. I had an embedded device that I wanted to program, and the advice I found online pointed me towards ArchLinux. I booted up ArchLinux, loaded in the partitions, and followed the lengthy instructions. However, things didn’t go as smoothly as I had hoped.</p>
+            <h2 id="the-challenges">The Challenges</h2>
+            <p>The main challenge was installing GRUB, the bootloader. In the old BIOS days, operating systems loaded into the master boot record. Now, there’s UEFI. Despite trying numerous tools and following various guides to modify the UEFI records to boot into ArchLinux, nothing worked.</p>
+            <p>I decided to try a few partitioning and bootloader tools in Windows, thinking I could make an entry in the Windows bootloader. I was surprised to find a plethora of free trials for partitioning, mounting, formatting, and bootloader tools online. However, none of them seemed to work as expected.</p>
+            <h2 id="the-debian-experience">The Debian Experience</h2>
+            <p>Next, I turned to Debian, touted as a stable distro. The installation process was quicker than ArchLinux, mostly automated, and even handled the UEFI entry. However, upon booting into the installed Debian, I realized my new Nvidia gaming graphics card didn’t work. This led to a kernel panic and a series of troubleshooting guides to add repositories and install proprietary drivers.</p>
+            <h2 id="the-ubuntu-solution">The Ubuntu Solution</h2>
+            <p>Drained from the experience, I looked at Ubuntu, which seemed like the perfect click-and-go solution. However, I only had a 4GB USB drive, donated to me two decades ago. This led me down a fascinating path of exploring how USB drives were created and how to make your own. Unfortunately, I needed a Linux system to use those tools, and there were no Windows tools available.</p>
+            <h2 id="the-last-resort">The Last Resort</h2>
+            <p>As a last resort, I decided to install WSL2 in Windows. I haven’t tried interfacing with the embedded devices yet, but I’m hopeful. In the future, I’d like to delve deeper into how bootloaders, UEFI, and USB live Linux distros work. I have a cool idea that I’d like to explore, but it requires a lot of research.</p>
+            <h2 id="conclusion">Conclusion</h2>
+            <p>My exploration of Linux and Windows has been a journey filled with trials and triumphs. It’s taught me patience, perseverance, and the importance of continuous learning. Despite the challenges, I wouldn’t trade this experience for anything. It’s shaped me into the tech enthusiast I am today, always ready for the next adventure in the vast landscape of technology.</p>
+        </div>
+            
+            
+            
+            
+        </article>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

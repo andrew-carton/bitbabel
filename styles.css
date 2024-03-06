@@ -1,0 +1,262 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    width: 100%;
+    padding: 20px;
+   
+    margin-top: 20px;
+    
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+article h2 {
+    text-align: left;
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+article p {
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.card {
+    width: 900px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    
+}
+
+.card img {
+    max-width: 150px; /* Adjust the maximum width as needed */
+    height: auto;
+    margin-right: 20px;
+    
+}
+
+.card-content {
+    flex-grow: 1;
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Inherits the color from its parent */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover if desired */
+}
+
+h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+h2 {
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+p {
+    font-size: 14px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-link {
+    /* Make the link fill the entire space of the card */
+    display: flex;
+    width: 100%;
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Inherit text color from its parent */
+}
+.blogimg  {
+    max-width: 300px; /* Adjust the maximum width as needed */
+    height: auto;
+    
+    text-align: center;
+    
+}
+
+.blogimgfront  {
+    max-width: 300px; /* Adjust the maximum width as needed */
+    height: auto;
+    
+    text-align: center;
+    
+}
+
+.blogimgfrontcont {
+    display: grid;
+    place-items: center; /* Center both horizontally and vertically */
+    height: 50vh; /* Full height of the viewport */
+}
+
+
+
+
+nav ul li a.active {
+    /* Add your desired styles for the active menu item */
+    color: red; /* For example, changing text color to red */
+}
+
+.about p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+.blogcontent h2 {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    width: 80%;
+}
+
+@media only screen and (max-width: 900px) {
+    .card {
+        width: calc(100% - 50px); /* Full width on smaller devices */
+    }
+    .card-link {
+        /* Make the link fill the entire space of the card */
+        display: block;
+        width: 100%;
+        
+        text-decoration: none; /* Remove underline from the link */
+        color: inherit; /* Inherit text color from its parent */
+    }
+
+    .card-link img {
+        
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          
+        
+    }
+    .card-content {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    
+    .about p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .about img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .blogcontent p {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        
+    }
+    .blogcontent h2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .blogcontent h1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        font-size: 18px;
+    }
+}
+
+    
+
+
+
+    
+    
+
+

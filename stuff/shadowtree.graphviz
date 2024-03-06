@@ -1,0 +1,91 @@
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+  graph [fontname = "Handlee"];
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
+  
+  bgcolor=transparent;
+  
+
+  subgraph cluster_0 {
+    style=filled;
+    color="#E0E0E0";
+    node [style=filled,color=blue,shape=rectangle];
+    Document
+    label = "Document Object Model (DOM)";
+    fontsize = 20;
+    node [style=filled,color=orange,shape=circle];
+    Document -> Element;
+    Element -> Child;
+    Document -> "Shadow Host";
+     subgraph cluster_11 {
+        style=filled;
+        color=red;
+        label = "Shadow Boundary";
+       
+       node [style=filled,color=orange,shape=circle];
+       "Shadow Host";
+     }
+    
+    
+    
+    
+    
+  }
+  
+
+
+    subgraph cluster_1 {
+     style=filled;
+    color="#A0A0A0";
+    node [style=filled,color=blue,shape=rectangle];
+    "Shadow Root"
+    label = "Shadow Tree";
+    fontsize = 20;
+    "Shadow Host" -> "Shadow Root"
+     node [style=filled,color=lightblue,shape=circle];
+    "Shadow Root" -> "Shadow Element";
+    "Shadow Element" -> "Shadow Child";
+    
+    subgraph cluster_113 {
+        style=filled;
+        color=red;
+        label = " Shadow  Boundary";
+       
+       node [style=filled,color=blue,shape=circle];
+       " Shadow  Element"
+     }
+     "Shadow Root" -> " Shadow  Element";
+    
+    }
+
+
+subgraph cluster_16 {
+    style=filled;
+    color="#606060";
+    node [style=filled,color=blue,shape=rectangle];
+    " Shadow Root"
+    label = "Sub Shadow Tree";
+    fontsize = 20;
+    " Shadow  Element" -> " Shadow Root"
+     node [style=filled,color=lightblue,shape=circle];
+    " Shadow Root" -> "  Shadow Element";
+    " Shadow Root" -> "   Shadow Element";
+    
+}
+
+subgraph cluster_19 {
+    style=filled;
+    color="#606060";
+    node [style=filled,color=blue,shape=rectangle];
+    "  Shadow Root"
+    label = " Sub Shadow Tree";
+    fontsize = 20;
+    " Shadow  Element" -> "  Shadow Root"
+     node [style=filled,color=lightblue,shape=circle];
+    "  Shadow Root" -> "   Shadow  Element";
+    "  Shadow Root" -> "    Shadow Element";
+    
+}
+}

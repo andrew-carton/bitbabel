@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="721.17" height="257.16" viewBox="0.00 0.00 721.17 257.16" preserveAspectRatio="xMidYMid meet" id="graph-diagram"><defs><defs><style type="text/css">@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');</style></defs></defs>
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 253.16)">
+
+<text text-anchor="middle" x="356.59" y="-230.76"  font-size="16.00">ASTRO dependancy graph</text>
+<!-- bitbabel@1.0.0 -->
+<g id="node1" class="node" data-module="bitbabel@1.0.0">
+<title>bitbabel@1.0.0</title>
+<path fill="none" stroke="black" d="M67,-128.96C67,-128.96 6.32,-128.96 6.32,-128.96 3.16,-128.96 0,-125.8 0,-122.64 0,-122.64 0,-116.32 0,-116.32 0,-113.16 3.16,-110 6.32,-110 6.32,-110 67,-110 67,-110 70.16,-110 73.32,-113.16 73.32,-116.32 73.32,-116.32 73.32,-122.64 73.32,-122.64 73.32,-125.8 70.16,-128.96 67,-128.96"></path>
+<text text-anchor="middle" x="36.66" y="-116.18"  font-size="10.00">bitbabel@1.0.0</text>
+</g>
+<!-- astro&#45;boilerplate&#45;components@1.0.16 -->
+<g id="node2" class="node" data-module="astro-boilerplate-components@1.0.16">
+<title>astro-boilerplate-components@1.0.16</title>
+<path fill="none" stroke="black" d="M275.29,-221.96C275.29,-221.96 115.64,-221.96 115.64,-221.96 112.48,-221.96 109.32,-218.8 109.32,-215.64 109.32,-215.64 109.32,-209.32 109.32,-209.32 109.32,-206.16 112.48,-203 115.64,-203 115.64,-203 275.29,-203 275.29,-203 278.45,-203 281.61,-206.16 281.61,-209.32 281.61,-209.32 281.61,-215.64 281.61,-215.64 281.61,-218.8 278.45,-221.96 275.29,-221.96"></path>
+<text text-anchor="middle" x="195.47" y="-209.18"  font-size="10.00">astro-boilerplate-components@1.0.16</text>
+</g>
+<!-- bitbabel@1.0.0&#45;&gt;astro&#45;boilerplate&#45;components@1.0.16 -->
+<g id="edge1" class="edge">
+<title>bitbabel@1.0.0-&gt;astro-boilerplate-components@1.0.16</title>
+<path fill="none" stroke="black" d="M44.3,-129.41C55.62,-145.53 80.3,-177.23 109.32,-193.48 112.83,-195.45 116.53,-197.21 120.34,-198.79"></path>
+<polygon fill="black" stroke="black" points="119.04,-202.41 129.63,-202.56 121.45,-195.83 119.04,-202.41"></polygon>
+</g>
+<!-- date&#45;fns@2.30.0 -->
+<g id="node3" class="node" data-module="date-fns@2.30.0">
+<title>date-fns@2.30.0</title>
+<path fill="none" stroke="black" d="M228.56,-184.96C228.56,-184.96 162.38,-184.96 162.38,-184.96 159.22,-184.96 156.06,-181.8 156.06,-178.64 156.06,-178.64 156.06,-172.32 156.06,-172.32 156.06,-169.16 159.22,-166 162.38,-166 162.38,-166 228.56,-166 228.56,-166 231.72,-166 234.88,-169.16 234.88,-172.32 234.88,-172.32 234.88,-178.64 234.88,-178.64 234.88,-181.8 231.72,-184.96 228.56,-184.96"></path>
+<text text-anchor="middle" x="195.47" y="-172.18"  font-size="10.00">date-fns@2.30.0</text>
+</g>
+<!-- bitbabel@1.0.0&#45;&gt;date&#45;fns@2.30.0 -->
+<g id="edge5" class="edge">
+<title>bitbabel@1.0.0-&gt;date-fns@2.30.0</title>
+<path fill="none" stroke="black" d="M53.91,-129.41C68.09,-137.69 89.45,-149.27 109.32,-156.48 120.66,-160.59 133.18,-163.99 145.05,-166.71"></path>
+<polygon fill="black" stroke="black" points="144.21,-170.32 154.72,-169.02 145.69,-163.48 144.21,-170.32"></polygon>
+</g>
+<!-- dot@1.1.3 -->
+<g id="node4" class="node" data-module="dot@1.1.3">
+<title>dot@1.1.3</title>
+<path fill="none" stroke="black" d="M215.12,-147.96C215.12,-147.96 175.82,-147.96 175.82,-147.96 172.66,-147.96 169.5,-144.8 169.5,-141.64 169.5,-141.64 169.5,-135.32 169.5,-135.32 169.5,-132.16 172.66,-129 175.82,-129 175.82,-129 215.12,-129 215.12,-129 218.28,-129 221.44,-132.16 221.44,-135.32 221.44,-135.32 221.44,-141.64 221.44,-141.64 221.44,-144.8 218.28,-147.96 215.12,-147.96"></path>
+<text text-anchor="middle" x="195.47" y="-135.18"  font-size="10.00">dot@1.1.3</text>
+</g>
+<!-- bitbabel@1.0.0&#45;&gt;dot@1.1.3 -->
+<g id="edge2" class="edge">
+<title>bitbabel@1.0.0-&gt;dot@1.1.3</title>
+<path fill="none" stroke="black" d="M73.64,-123.84C99.16,-126.93 133.26,-131.06 158.72,-134.15"></path>
+<polygon fill="black" stroke="black" points="158.06,-137.72 168.41,-135.44 158.9,-130.77 158.06,-137.72"></polygon>
+</g>
+<!-- react&#45;dom@18.2.0 -->
+<g id="node5" class="node" data-module="react-dom@18.2.0">
+<title>react-dom@18.2.0</title>
+<path fill="none" stroke="black" d="M233.14,-110.96C233.14,-110.96 157.8,-110.96 157.8,-110.96 154.64,-110.96 151.48,-107.8 151.48,-104.64 151.48,-104.64 151.48,-98.32 151.48,-98.32 151.48,-95.16 154.64,-92 157.8,-92 157.8,-92 233.14,-92 233.14,-92 236.3,-92 239.46,-95.16 239.46,-98.32 239.46,-98.32 239.46,-104.64 239.46,-104.64 239.46,-107.8 236.3,-110.96 233.14,-110.96"></path>
+<text text-anchor="middle" x="195.47" y="-98.18"  font-size="10.00">react-dom@18.2.0</text>
+</g>
+<!-- bitbabel@1.0.0&#45;&gt;react&#45;dom@18.2.0 -->
+<g id="edge3" class="edge">
+<title>bitbabel@1.0.0-&gt;react-dom@18.2.0</title>
+<path fill="none" stroke="black" d="M73.64,-115.35C93.36,-113.09 118.21,-110.23 140.24,-107.7"></path>
+<polygon fill="black" stroke="black" points="140.59,-111.07 150.13,-106.46 139.79,-104.12 140.59,-111.07"></polygon>
+</g>
+<!-- react&#45;router&#45;dom@6.22.1 -->
+<g id="node6" class="node" data-module="react-router-dom@6.22.1">
+<title>react-router-dom@6.22.1</title>
+<path fill="none" stroke="black" d="M248.1,-36.96C248.1,-36.96 142.84,-36.96 142.84,-36.96 139.68,-36.96 136.52,-33.8 136.52,-30.64 136.52,-30.64 136.52,-24.32 136.52,-24.32 136.52,-21.16 139.68,-18 142.84,-18 142.84,-18 248.1,-18 248.1,-18 251.26,-18 254.42,-21.16 254.42,-24.32 254.42,-24.32 254.42,-30.64 254.42,-30.64 254.42,-33.8 251.26,-36.96 248.1,-36.96"></path>
+<text text-anchor="middle" x="195.47" y="-24.18"  font-size="10.00">react-router-dom@6.22.1</text>
+</g>
+<!-- bitbabel@1.0.0&#45;&gt;react&#45;router&#45;dom@6.22.1 -->
+<g id="edge4" class="edge">
+<title>bitbabel@1.0.0-&gt;react-router-dom@6.22.1</title>
+<path fill="none" stroke="black" d="M45.11,-109.65C57.02,-94.62 81.82,-66.05 109.32,-50.48 116.1,-46.64 123.55,-43.42 131.13,-40.72"></path>
+<polygon fill="black" stroke="black" points="132.07,-43.77 140.5,-37.36 129.91,-37.12 132.07,-43.77"></polygon>
+</g>
+<!-- react@18.2.0 -->
+<g id="node7" class="node" data-module="react@18.2.0">
+<title>react@18.2.0</title>
+<path fill="none" stroke="black" d="M400.98,-73.96C400.98,-73.96 348.86,-73.96 348.86,-73.96 345.7,-73.96 342.54,-70.8 342.54,-67.64 342.54,-67.64 342.54,-61.32 342.54,-61.32 342.54,-58.16 345.7,-55 348.86,-55 348.86,-55 400.98,-55 400.98,-55 404.14,-55 407.3,-58.16 407.3,-61.32 407.3,-61.32 407.3,-67.64 407.3,-67.64 407.3,-70.8 404.14,-73.96 400.98,-73.96"></path>
+<text text-anchor="middle" x="374.92" y="-61.18"  font-size="10.00">react@18.2.0</text>
+</g>
+<!-- bitbabel@1.0.0&#45;&gt;react@18.2.0 -->
+<g id="edge6" class="edge">
+<title>bitbabel@1.0.0-&gt;react@18.2.0</title>
+<path fill="none" stroke="black" d="M52.88,-109.6C66.92,-101.04 88.65,-89.17 109.32,-83.48 185.6,-62.48 278.65,-61.11 331.62,-62.48"></path>
+<polygon fill="black" stroke="black" points="331.19,-66 341.29,-62.81 331.4,-59 331.19,-66"></polygon>
+</g>
+<!-- @babel/runtime@7.23.9 -->
+<g id="node8" class="node" data-module="@babel/runtime@7.23.9">
+<title>@babel/runtime@7.23.9</title>
+<path fill="none" stroke="black" d="M425.9,-184.96C425.9,-184.96 323.93,-184.96 323.93,-184.96 320.77,-184.96 317.61,-181.8 317.61,-178.64 317.61,-178.64 317.61,-172.32 317.61,-172.32 317.61,-169.16 320.77,-166 323.93,-166 323.93,-166 425.9,-166 425.9,-166 429.06,-166 432.22,-169.16 432.22,-172.32 432.22,-172.32 432.22,-178.64 432.22,-178.64 432.22,-181.8 429.06,-184.96 425.9,-184.96"></path>
+<text text-anchor="middle" x="374.92" y="-172.18"  font-size="10.00">@babel/runtime@7.23.9</text>
+</g>
+<!-- date&#45;fns@2.30.0&#45;&gt;@babel/runtime@7.23.9 -->
+<g id="edge7" class="edge">
+<title>date-fns@2.30.0-&gt;@babel/runtime@7.23.9</title>
+<path fill="none" stroke="black" d="M234.97,-175.48C255.83,-175.48 282.22,-175.48 306.38,-175.48"></path>
+<polygon fill="black" stroke="black" points="306.29,-178.98 316.29,-175.48 306.29,-171.98 306.29,-178.98"></polygon>
+</g>
+<!-- loose&#45;envify@1.4.0 -->
+<g id="node10" class="node" data-module="loose-envify@1.4.0">
+<title>loose-envify@1.4.0</title>
+<path fill="none" stroke="black" d="M574.01,-110.96C574.01,-110.96 493.78,-110.96 493.78,-110.96 490.62,-110.96 487.46,-107.8 487.46,-104.64 487.46,-104.64 487.46,-98.32 487.46,-98.32 487.46,-95.16 490.62,-92 493.78,-92 493.78,-92 574.01,-92 574.01,-92 577.17,-92 580.33,-95.16 580.33,-98.32 580.33,-98.32 580.33,-104.64 580.33,-104.64 580.33,-107.8 577.17,-110.96 574.01,-110.96"></path>
+<text text-anchor="middle" x="533.9" y="-98.18"  font-size="10.00">loose-envify@1.4.0</text>
+</g>
+<!-- react&#45;dom@18.2.0&#45;&gt;loose&#45;envify@1.4.0 -->
+<g id="edge8" class="edge">
+<title>react-dom@18.2.0-&gt;loose-envify@1.4.0</title>
+<path fill="none" stroke="black" d="M239.75,-109.49C262.78,-113.36 291.64,-117.56 317.61,-119.48 368.41,-123.23 381.49,-123.98 432.22,-119.48 446.6,-118.2 461.99,-115.93 476.31,-113.41"></path>
+<polygon fill="black" stroke="black" points="476.81,-116.69 486.02,-111.45 475.55,-109.81 476.81,-116.69"></polygon>
+</g>
+<!-- scheduler@0.23.0 -->
+<g id="node12" class="node" data-module="scheduler@0.23.0">
+<title>scheduler@0.23.0</title>
+<path fill="none" stroke="black" d="M411.37,-110.96C411.37,-110.96 338.47,-110.96 338.47,-110.96 335.31,-110.96 332.15,-107.8 332.15,-104.64 332.15,-104.64 332.15,-98.32 332.15,-98.32 332.15,-95.16 335.31,-92 338.47,-92 338.47,-92 411.37,-92 411.37,-92 414.53,-92 417.69,-95.16 417.69,-98.32 417.69,-98.32 417.69,-104.64 417.69,-104.64 417.69,-107.8 414.53,-110.96 411.37,-110.96"></path>
+<text text-anchor="middle" x="374.92" y="-98.18"  font-size="10.00">scheduler@0.23.0</text>
+</g>
+<!-- react&#45;dom@18.2.0&#45;&gt;scheduler@0.23.0 -->
+<g id="edge9" class="edge">
+<title>react-dom@18.2.0-&gt;scheduler@0.23.0</title>
+<path fill="none" stroke="black" d="M239.88,-101.48C264.39,-101.48 295.2,-101.48 321.11,-101.48"></path>
+<polygon fill="black" stroke="black" points="320.88,-104.98 330.88,-101.48 320.88,-97.98 320.88,-104.98"></polygon>
+</g>
+<!-- @remix&#45;run/router@1.15.1 -->
+<g id="node9" class="node" data-module="@remix-run/router@1.15.1">
+<title>@remix-run/router@1.15.1</title>
+<path fill="none" stroke="black" d="M590.99,-18.96C590.99,-18.96 476.8,-18.96 476.8,-18.96 473.64,-18.96 470.48,-15.8 470.48,-12.64 470.48,-12.64 470.48,-6.32 470.48,-6.32 470.48,-3.16 473.64,0 476.8,0 476.8,0 590.99,0 590.99,0 594.15,0 597.31,-3.16 597.31,-6.32 597.31,-6.32 597.31,-12.64 597.31,-12.64 597.31,-15.8 594.15,-18.96 590.99,-18.96"></path>
+<text text-anchor="middle" x="533.9" y="-6.18"  font-size="10.00">@remix-run/router@1.15.1</text>
+</g>
+<!-- react&#45;router&#45;dom@6.22.1&#45;&gt;@remix&#45;run/router@1.15.1 -->
+<g id="edge10" class="edge">
+<title>react-router-dom@6.22.1-&gt;@remix-run/router@1.15.1</title>
+<path fill="none" stroke="black" d="M251.76,-17.51C272.36,-14.26 295.98,-11.08 317.61,-9.48 364.66,-6 417.65,-5.96 459.28,-6.8"></path>
+<polygon fill="black" stroke="black" points="459.08,-10.32 469.16,-7.05 459.24,-3.32 459.08,-10.32"></polygon>
+</g>
+<!-- react&#45;router@6.22.1 -->
+<g id="node11" class="node" data-module="react-router@6.22.1">
+<title>react-router@6.22.1</title>
+<path fill="none" stroke="black" d="M415.94,-36.96C415.94,-36.96 333.9,-36.96 333.9,-36.96 330.74,-36.96 327.58,-33.8 327.58,-30.64 327.58,-30.64 327.58,-24.32 327.58,-24.32 327.58,-21.16 330.74,-18 333.9,-18 333.9,-18 415.94,-18 415.94,-18 419.1,-18 422.26,-21.16 422.26,-24.32 422.26,-24.32 422.26,-30.64 422.26,-30.64 422.26,-33.8 419.1,-36.96 415.94,-36.96"></path>
+<text text-anchor="middle" x="374.92" y="-24.18"  font-size="10.00">react-router@6.22.1</text>
+</g>
+<!-- react&#45;router&#45;dom@6.22.1&#45;&gt;react&#45;router@6.22.1 -->
+<g id="edge11" class="edge">
+<title>react-router-dom@6.22.1-&gt;react-router@6.22.1</title>
+<path fill="none" stroke="black" d="M254.57,-27.48C274.44,-27.48 296.65,-27.48 316.47,-27.48"></path>
+<polygon fill="black" stroke="black" points="316.21,-30.98 326.21,-27.48 316.21,-23.98 316.21,-30.98"></polygon>
+</g>
+<!-- react@18.2.0&#45;&gt;loose&#45;envify@1.4.0 -->
+<g id="edge12" class="edge">
+<title>react@18.2.0-&gt;loose-envify@1.4.0</title>
+<path fill="none" stroke="black" d="M407.69,-71.97C428.52,-76.88 456.27,-83.42 480.34,-89.09"></path>
+<polygon fill="black" stroke="black" points="479.22,-92.66 489.75,-91.55 480.82,-85.85 479.22,-92.66"></polygon>
+</g>
+<!-- regenerator&#45;runtime@0.14.1 -->
+<g id="node14" class="node" data-module="regenerator-runtime@0.14.1">
+<title>regenerator-runtime@0.14.1</title>
+<path fill="none" stroke="black" d="M593.25,-184.96C593.25,-184.96 474.54,-184.96 474.54,-184.96 471.38,-184.96 468.22,-181.8 468.22,-178.64 468.22,-178.64 468.22,-172.32 468.22,-172.32 468.22,-169.16 471.38,-166 474.54,-166 474.54,-166 593.25,-166 593.25,-166 596.41,-166 599.57,-169.16 599.57,-172.32 599.57,-172.32 599.57,-178.64 599.57,-178.64 599.57,-181.8 596.41,-184.96 593.25,-184.96"></path>
+<text text-anchor="middle" x="533.9" y="-172.18"  font-size="10.00">regenerator-runtime@0.14.1</text>
+</g>
+<!-- @babel/runtime@7.23.9&#45;&gt;regenerator&#45;runtime@0.14.1 -->
+<g id="edge13" class="edge">
+<title>@babel/runtime@7.23.9-&gt;regenerator-runtime@0.14.1</title>
+<path fill="none" stroke="black" d="M432.59,-175.48C440.53,-175.48 448.79,-175.48 457.01,-175.48"></path>
+<polygon fill="black" stroke="black" points="456.77,-178.98 466.77,-175.48 456.77,-171.98 456.77,-178.98"></polygon>
+</g>
+<!-- js&#45;tokens@4.0.0 -->
+<g id="node13" class="node" data-module="js-tokens@4.0.0">
+<title>js-tokens@4.0.0</title>
+<path fill="none" stroke="black" d="M706.85,-110.96C706.85,-110.96 641.89,-110.96 641.89,-110.96 638.73,-110.96 635.57,-107.8 635.57,-104.64 635.57,-104.64 635.57,-98.32 635.57,-98.32 635.57,-95.16 638.73,-92 641.89,-92 641.89,-92 706.86,-92 706.86,-92 710.01,-92 713.17,-95.16 713.17,-98.32 713.17,-98.32 713.17,-104.64 713.17,-104.64 713.17,-107.8 710.01,-110.96 706.85,-110.96"></path>
+<text text-anchor="middle" x="674.37" y="-98.18"  font-size="10.00">js-tokens@4.0.0</text>
+</g>
+<!-- loose&#45;envify@1.4.0&#45;&gt;js&#45;tokens@4.0.0 -->
+<g id="edge14" class="edge">
+<title>loose-envify@1.4.0-&gt;js-tokens@4.0.0</title>
+<path fill="none" stroke="black" d="M580.62,-101.48C594.68,-101.48 610.21,-101.48 624.48,-101.48"></path>
+<polygon fill="black" stroke="black" points="624.1,-104.98 634.1,-101.48 624.1,-97.98 624.1,-104.98"></polygon>
+</g>
+<!-- react&#45;router@6.22.1&#45;&gt;@remix&#45;run/router@1.15.1 -->
+<g id="edge15" class="edge">
+<title>react-router@6.22.1-&gt;@remix-run/router@1.15.1</title>
+<path fill="none" stroke="black" d="M422.59,-22.13C434.13,-20.81 446.76,-19.36 459.24,-17.93"></path>
+<polygon fill="black" stroke="black" points="459.59,-21.29 469.12,-16.68 458.79,-14.34 459.59,-21.29"></polygon>
+</g>
+<!-- scheduler@0.23.0&#45;&gt;loose&#45;envify@1.4.0 -->
+<g id="edge16" class="edge">
+<title>scheduler@0.23.0-&gt;loose-envify@1.4.0</title>
+<path fill="none" stroke="black" d="M417.99,-101.48C435.91,-101.48 457.09,-101.48 476.35,-101.48"></path>
+<polygon fill="black" stroke="black" points="476.13,-104.98 486.13,-101.48 476.13,-97.98 476.13,-104.98"></polygon>
+</g>
+</g>
+<style>:root{color-scheme:light dark;--grey0:#000;--grey10:#1a1a1a;--grey20:#333;--grey30:#4d4d4d;--grey40:#666;--grey50:gray;--grey60:#999;--grey70:#b3b3b3;--grey80:#ccc;--grey90:#e6e6e6;--grey100:#fff;--rad_sm:5px;--rad_lg:10px;--inspector-size:32em;--tabs-height:24pt;--bg-gradient:linear-gradient(to bottom,rgba(255,255,255,.2),transparent 100%);--text:#020303;--text-dim:#999;--bg0:#f1f4f4;--bg1:#bbb;--bg2:#ddd;--tabs-bg:#7e7e7d;--tabs-text:#fff;--highlight:#e65c00;--stroke-L:40%;--stroke-S:100%;--stroke-blue:hsl(180,var(--stroke-S),var(--stroke-L));--stroke-orange:hsl(30,var(--stroke-S),var(--stroke-L));--stroke-green:hsl(120,var(--stroke-S),var(--stroke-L));--stroke-indigo:hsl(240,var(--stroke-S),var(--stroke-L));--stroke-red:hsl(0,var(--stroke-S),var(--stroke-L));--stroke-violet:hsl(300,var(--stroke-S),var(--stroke-L));--stroke-yellow:hsl(60,var(--stroke-S),var(--stroke-L));--bg-L:70%;--bg-S:100%;--bg-dark-L:50%;--bg-dark-S:60%;--bg-blue:hsl(180,var(--bg-S),var(--bg-L));--bg-green:hsl(120,var(--bg-S),var(--bg-L));--bg-indigo:hsl(240,var(--bg-S),var(--bg-L));--bg-orange:hsl(30,var(--bg-S),var(--bg-L));--bg-red:hsl(0,var(--bg-S),var(--bg-L));--bg-violet:hsl(300,var(--bg-S),var(--bg-L));--bg-yellow:hsl(60,var(--bg-S),var(--bg-L));--bg-darkblue:hsl(180,var(--bg-dark-S),var(--bg-dark-L));--bg-darkgreen:hsl(120,var(--bg-dark-S),var(--bg-dark-L));--bg-darkindigo:hsl(240,var(--bg-dark-S),var(--bg-dark-L));--bg-darkorange:hsl(30,var(--bg-dark-S),var(--bg-dark-L));--bg-darkred:hsl(0,var(--bg-dark-S),var(--bg-dark-L));--bg-darkviolet:hsl(300,var(--bg-dark-S),var(--bg-dark-L));--bg-darkyellow:hsl(60,var(--bg-dark-S),var(--bg-dark-L))}@media (prefers-color-scheme:dark){:root{--grey100:#000;--grey90:#1a1a1a;--grey80:#333;--grey70:#4d4d4d;--grey60:#666;--grey50:gray;--grey40:#999;--grey30:#b3b3b3;--grey20:#ccc;--grey10:#e6e6e6;--grey0:#fff;--text:#f3f3f3;--text-dim:#766;--bg0:#262222;--bg1:#696666;--bg2:#333;--stroke-L:60%;--bg-L:30%;--bg-dark-L:40%;--highlight:#ff761a;--inset-shadow-color:black;background-color:#111}}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:10pt}html,body{margin:0;padding:0}p{line-height:1.5em}h2{border-radius:var(--rad_sm);font-size:14pt}#app{display:-ms-flexbox;display:flex;position:fixed;top:0;bottom:0;left:0;right:0}</style><style>#graph{-webkit-user-select:none;-ms-user-select:none;user-select:none;--warning0:#f6f6e0;--warning1:#d9d9d9;--stub:red;-ms-flex-positive:1;flex-grow:1;height:100vh;position:relative;overflow:auto}#graph.centered{-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex}#graph.graphviz-loading,#graph.graphviz-failed{text-align:center;margin-top:20vh}#graph.graphviz-failed{color:var(--stroke-red)}@media (prefers-color-scheme:dark){#graph{--warning0:#101010;--warning1:#660}}#graph-controls{cursor:default;display:-ms-flexbox;display:flex;position:fixed;bottom:1em;left:1em}#graph-controls button{border:solid 1px var(--bg1);border-radius:var(--rad_sm);background:var(--bg0);color:var(--text);outline:0;margin:0;font-size:1.8em;line-height:1em;display:inline-block}#graph-controls button.selected{background-color:var(--highlight)}svg#graph-diagram{fill:var(--text)}pattern#warning .line0{stroke:var(--warning0)}pattern#warning .line1{stroke:var(--warning1)}g .stub{opacity:.6}g .stub>path{stroke-dasharray:4 4;stroke:var(--stub)}g.node text{fill:var(--text)}g.node path{stroke:var(--text);fill:var(--bg0)}g.node.collapsed,g.node.peer{opacity:.5}g.node.selected>path{stroke-width:3px;stroke:var(--highlight)}g.node.upstream>path{stroke:var(--stroke-blue)}g.node.downstream>path{stroke:var(--stroke-orange)}g.node.unselected{opacity:.35}g.node.warning>path{fill:url(#warning)}g.node *{cursor:pointer}g.edge{--selected-edge-width:2}g.edge>path{stroke:var(--text)}g.edge>polygon{stroke:var(--text);fill:var(--text)}g.edge.upstream>path{stroke:var(--stroke-blue);stroke-width:var(--selected-edge-width)}g.edge.upstream>polygon{stroke:var(--stroke-blue);fill:var(--stroke-blue)}g.edge.downstream>path{stroke:var(--stroke-orange);stroke-width:var(--selected-edge-width)}g.edge.downstream>polygon{stroke:var(--stroke-orange);fill:var(--stroke-orange)}g.edge.unselected{opacity:.35}@media print{#graph-controls{display:none}}</style></svg>

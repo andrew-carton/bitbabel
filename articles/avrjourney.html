@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bitbabel</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a class="active" href="../bloglist.html">Blog</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <div class="blogcontent">
+            <h1 style="text-align: center;">Embarking on a Journey Through Embedded Systems: From AVR to ARM</h1>
+            <img class="blogimg "src="../images/avr.png" alt="Slow turtle">
+            <p><strong>Description:</strong>Discarding the 8-bit AVR</p>
+            <p><strong>Date:</strong>2024-03-11</p>
+            
+         <p><br /><br />As I delved into the world of embedded systems, my initial steps led me to the forums where seasoned hobbyists and professionals alike share their wisdom. It was here that I encountered the recommendation for the ATmega328p, a stalwart of the AVR architecture. This 8-bit microcontroller, praised for its simplicity and suitability for beginners, seemed like the perfect starting point for my exploration.<br /><br />With an Adafruit Pro Trinket - 3V 12Mhz in hand, I embarked on my journey. The device, though modest, featured a small USB module for interfacing, and at a mere 10 euros, it was a bargain. The Arduino framework was my guide, a commercial giant in the hobbyist world, offering a plethora of peripherals and an extensive library ecosystem. It was a gateway, a means to test the waters and ensure the device's functionality.<br /><br />Yet, the true challenge lay ahead. Transitioning to open-source tools like the AVR version of the GCC compiler took patience and perseverance. The blink program became my white whale, but with AVRDude and a mini USB, I eventually tamed the beast in C.<br /><br />Assembly language was the next frontier, a daunting landscape that required meticulous study of the datasheet and a trial-and-error approach. The GCC's "-S" switch proved invaluable, transforming C code into its assembly counterpart and offering a glimpse into the underlying mechanics.<br /><br />However, the limitations of the ATmega328p soon became apparent. Its 8-bit nature, coupled with the confusion of "paired" 16-bit instructions, turned the learning experience into a labyrinth of complexity. The inability to inspect the device's memory post-execution or during debugging was a significant hurdle, one that cast a shadow over the bootloader's convenience.<br /><br />Frustration mounted as I sought assistance, only to be met with outdated resources and a less-than-welcoming community on the AVR Freaks forums. It was a sobering reminder that not all journeys are met with open arms.<br /><br />In a twist of fate, my search for answers led me to the TIVA C Launchpad EK-TM4C123GXL, an ARM Cortex device that promised a modern approach to embedded systems. Endorsed by numerous forums and an excellent free course by Quantum Leaps, LLC, it was a beacon of hope.<br /><br />As I turn the page on the AVR chapter, I look forward to the ARM experience with renewed vigor. The path of learning is fraught with challenges, but it is the resilience and adaptability in the face of adversity that truly defines the journey through embedded systems.<br /><br />---<br /><br />This blog post reflects the personal experiences and insights of an individual navigating the intricate world of embedded systems. From the humble beginnings with an AVR microcontroller to the promising horizons of an ARM Cortex device, it is a testament to the ever-evolving nature of technology and the relentless pursuit of knowledge.</p>
+        </div>
+
+
+
+
+
+
+        </article>
+    </main>
+ 
+</body>
+</html>
